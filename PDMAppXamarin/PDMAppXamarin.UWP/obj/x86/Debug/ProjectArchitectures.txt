@@ -1,0 +1,1 @@
+D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.UWP\PDMAppXamarin.UWP.csproj;x86
