@@ -5,7 +5,21 @@
              x:Class="PDMAppXamarin.MainPage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <ListView x:Name="listView"/>
+            <ListView x:Name="listView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Drapel}"></Image>
+                                
+                                <Label Text="{Binding Multiplicator}"/>
+                                <Label Text="{Binding DenumireValuta, StringFormat='{0} = '}"/>
+                                <Label Text="{Binding ValoareMoneda,StringFormat='{0} RON '}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             <Button x:Name="buton" HeightRequest="60" Text="Incarca date"/>
         </StackLayout>
     </ContentPage.Content>

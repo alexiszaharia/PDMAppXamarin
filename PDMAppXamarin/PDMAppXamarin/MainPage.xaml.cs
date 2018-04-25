@@ -9,14 +9,15 @@ namespace PDMAppXamarin
 {
 	public partial class MainPage : ContentPage
 	{
-        List<string> listaValute;
+        List<CursValutar> listaValute;
         public MainPage()
 		{
-            listaValute = new List<string> { "1 EUR = 4.7 RON",
-            "1 USD = 3.8 RON",
-            "1 GBP = 5.2 RON",
-            "1 CAD = 3.5 RON",
-            "1 BGN = 2.3 RON"};
+            listaValute = new List<CursValutar> { new CursValutar(3.7f, "USD", DateTime.Now),
+            new CursValutar(4.5f, "EUR", DateTime.Now),
+            new CursValutar(5.5f, "GBP", DateTime.Now),
+            new CursValutar(3.5f, "CAD", DateTime.Now),
+            new CursValutar(4.2f, "SWD", DateTime.Now),
+            new CursValutar(2.3f, 100f, "HUN", DateTime.Now)};
             InitializeComponent();
             this.FindByName<Button>("buton");
             var buton = this.FindByName<Button>("buton");
@@ -29,6 +30,7 @@ namespace PDMAppXamarin
         {
             //buton.Text = "Apasat";
             listView.ItemsSource = listaValute;
+            listView.BindingContext = listaValute;
         }
     }
 }

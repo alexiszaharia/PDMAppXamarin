@@ -27,7 +27,6 @@ D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\Xamarin.Forms.Cor
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\PDMAppXamarin.Android.csprojResolveAssemblyReference.cache
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\PDMAppXamarin.Droid.MainPage.xaml.g.cs
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\PDMAppXamarin.Droid.App.xaml.g.cs
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\PDMAppXamarin.Android.dll
@@ -43,10 +42,9 @@ D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\FormsViewGroup.dl
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\bin\Debug\PDMAppXamarin.Android.dll.mdb
-D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\android\assets\PDMAppXamarin.Android.dll.mdb
-D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\PDMAppXamarin.Droid.PaginaDetaliiValuta.xaml.g.cs
+D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\res\drawable\eu.png
+D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\res\drawable\gb.png
+D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\res\drawable\hu.png
+D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\res\drawable\ro.png
+D:\PDMAppXamarin\PDMAppXamarin\PDMAppXamarin.Android\obj\Debug\res\drawable\us.png
