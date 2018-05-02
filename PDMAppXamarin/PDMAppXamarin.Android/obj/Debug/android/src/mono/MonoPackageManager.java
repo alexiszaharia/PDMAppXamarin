@@ -108,6 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "PDMAppXamarin.Android.dll" comes first in this list. */
 		"PDMAppXamarin.Android.dll",
 		"FormsViewGroup.dll",
+		"System.Net.Http.Extensions.dll",
+		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
