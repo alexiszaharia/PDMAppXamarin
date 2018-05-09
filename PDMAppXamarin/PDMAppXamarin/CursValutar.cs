@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SQLite;
 
 namespace PDMAppXamarin
 {
+    [Table("cursuri_valutare")]
     class CursValutar
     {
         private float valoareMoneda;
@@ -32,6 +34,7 @@ namespace PDMAppXamarin
             this.dataCurs = dataCurs;
         }
 
+        [Column("drapel")]
         public String Drapel
         {
             get {
@@ -39,24 +42,28 @@ namespace PDMAppXamarin
             }
         }
 
+        [Column("valoare_moneda")]
         public float ValoareMoneda
         {
             get { return valoareMoneda; }
             set { valoareMoneda = value; }
         }
 
+        [Column("multiplicator")]
         public float Multiplicator
         {
             get { return multiplicator; }
             set { multiplicator = value; }
         }
 
+        [Column("denumire_valuta")]
         public string DenumireValuta
         {
             get { return denumireValuta; }
             set { denumireValuta = value; }
         }
 
+        [Column("data_curs")]
         public DateTime DataCurs
         {
             get { return dataCurs; }
